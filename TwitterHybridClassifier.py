@@ -94,8 +94,6 @@ class TwitterHybridClassifier(object):
         # iterate over the tweet_tokens
         for index, tweet_tokens in enumerate(tweet_tokens_list):
 
-            print('Testing for tweet n. {}/{}'.format(index+1,total_tweets))
-
             # 1. Rule-based classifier. Look for emoticons basically
             positive_score,negative_score = self.rules_classifier.classify(tweet_tokens)
 
