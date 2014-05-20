@@ -1,0 +1,6 @@
+
+From:
+
+http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
+
+A list of positive and negative opinion words or sentiment words for English (around 6800 words). This list was compiled over many years starting from our first paper (Hu and Liu, KDD-2004).
